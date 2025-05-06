@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;  /* Remove default padding */
+    margin: 0;   /* Remove extra margin */
+}
+
+h1{
+    width:463px;
+    line-height:56px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.task-input {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+
+}
+
+
+
+.input-text1
+{
+    width: 450px;
+    height: 20px;
+    border: 1px solid black;
+    margin-left:20px;
+}
+.input-date1{
+    width: 350px;
+    height: 20px;
+    border: 1px solid black;
+}
+.input-priority1{
+    width: 250px;
+    height:27px;
+    border: 1px solid black;
+
+ 
+}
+.input-button1{
+    width: 125px;
+    height: 28px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+ 
+}
+
+input,button{
+    padding:5px;
+}
+input::placeholder{
+    color: grey;
+}
+
+
+
+.my-list{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-left: 20px;
+    width:1200px;
+    height:26px;
+}
+.task-item-div{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    background: black;
+    color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+    margin-right:10px;
+    margin-left:10px;   
+    width: 1200px;
+    height:20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px; /* Adds space between buttons */
+}
+
+.task-actions>button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+button img {
+    background-color: transparent;
+    width:20px;   /* Keep original width */
+    height: 20px;  /* Force the height to be 20px */
+    display: block; /* Removes extra spacing issues */
+}
+
+.delete-btn{
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.task-item-div1{
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    background:white;
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    margin-right:10px;
+    margin-left:10px;   
+    width: 1200px;
+    height:20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.today-class{
+    margin-left: 20px;
+}
+.future-class{
+    margin-left: 20px;
+}
+.completed-class{
+    margin-left: 20px;
+}
